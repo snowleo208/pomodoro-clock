@@ -1,0 +1,69 @@
+<html>
+<head>
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Audiowide|Roboto+Slab|Zilla+Slab" rel="stylesheet">
+<meta name="viewport" comment="width=device-width, initial-scale=1">
+<meta http-equiv="comment-Type" comment="text/html; charset=utf-8" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://darkskyapp.github.io/skycons/skycons.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+<script src="./js/main.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/main.css"> 
+
+<title>Pomodoro Clock </title>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="jumbotron">
+    
+    <h3 style="font-family: Audiowide;padding: 20px;">Pomodoro Clock</h3>
+    
+      <div class="row">
+    
+  <div class="col-sm-6">
+    <p>Break Length</p>
+    <div class="row">
+      <div class="col-4"></div>
+      
+      <div class="col-5">
+        <div class="row">
+    <button class="timebtn" id="break_deduct">-</button>
+    <p id="breakTime" style="padding: 0 10px 0 10px;margin-top: 10px;font-size: 18px;">5</p>
+          <button class="timebtn" id="break_add">+</button></div></div>
+      
+      <div class="col-3"></div>
+      </div>
+  </div>
+    
+  <div class="col-sm-6">
+    <p>Session Length</p>
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-5">
+         <div class="row">
+        <button class="timebtn" id="session_deduct">-</button>
+    <p id = "sessionTime" style="padding: 0 10px 0 10px;margin-top: 10px;font-size: 18px;">5</p>
+           <button class="timebtn" id="session_add">+</button>
+           </div>
+      </div>
+    <div class="col-3"></div>
+     </div>
+  </div>
+    
+    <div class="col-sm-12" id="clockDiv">
+      <div>
+        <div id="timer"><p id = "timerText">Click to start session</p>
+        </div>
+      </div>
+   
+      </div>
+  </div>
+
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+.container-fluid {
+  margin-top: 30px;
+  font-family: Roboto Slab;
+  max-width: 580px;
+}
+
+.jumbotron {
+  background-color: #f0f0f5;
+  opacity: 0.9;
+}
+
+row {
+  height: 100%;
+}
+
+button {
+  color: black;
+  background-color: #f0f0f5;
+  border: 0px;
+  width: 30%;
+  border-radius: 5px;
+  vertical-align: middle;
+  font-size: 18px;
+  padding: 3px;
+  font-family: Arial;
+}
+
+row {
+  margin: 0 auto;
+  width: 50%;
+}
+
+div {
+  /*border: solid 1px;*/
+  text-align: center;
+}
+
+#timer {
+  color: black;
+  width: 250px;
+  height: 250px;
+  float: center;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 50%;
+  border: solid 2px;
+}
+#timer p {
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 250px;
+  font-size: 20px;
+}
